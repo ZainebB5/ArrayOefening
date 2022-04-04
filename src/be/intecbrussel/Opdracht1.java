@@ -1,5 +1,6 @@
 package be.intecbrussel;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Opdracht1 {
@@ -8,10 +9,11 @@ public class Opdracht1 {
         int[] array = new int[25];
         for(int i=0; i<array.length; i++){
             array[i]= random.nextInt(150);
-            System.out.println(array[i]);
+            //System.out.println(array[i]);
         }
+        System.out.println(Arrays.toString(array));
         int smaller1 = array[0];
-        int smaller2 = 10000000;
+        int smaller2 = 0;
         for (int i = 0;i < array.length;i++){
             if (array[i] < smaller1){
                 smaller2 = smaller1;

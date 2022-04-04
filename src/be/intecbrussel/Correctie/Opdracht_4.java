@@ -26,17 +26,5 @@ public class Opdracht_4 {
             }
             count = 1;
         }
-//        for (int index = 0 ; index < array.length;index++){
-//            for (int index2 = index+1;index2 < array.length ; index2++){
-//                if (array[index] == array[index2]){
-//                    count++;
-//                    array[index2]= -1;
-//                }
-//            }
-//            if (count >= 1 && array[index] != -1);{
-//                System.out.println(count+1 + " x " + array[index]);
-//            }
-//            count = 0;
- //       }
     }
 }
